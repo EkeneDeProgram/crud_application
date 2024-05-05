@@ -46,12 +46,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the development server:
+4. Set up the environment variables:
+* Copy the `.env.example` file and rename it to `.env`.
+* Open the `.env` file and set the `DATABASE_URL` and `DOCKER_DATABASE_URL` variable to your local PostgreSQL connection string.
+```bash
+DATABASE_URL=postgresql://{username}:{password}@localhost:{port}/{your-database-name}
+DOCKER_DATABASE_URl=postgresql://{username}:{password}@host.docker.internal:{port}/{your-database-name}
+```
+
+5. Run the development server:
 ```bash
 uvicorn main:app
 ```
 
-5. Access the API at http://localhost:8000/api/.
+6. Access the API at http://localhost:8000/api/.
 
 ### Testing
 
