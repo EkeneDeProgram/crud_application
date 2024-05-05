@@ -88,12 +88,13 @@ To run the Simple CRUD Application using Docker, follow these steps:
 1. Build the Docker image:
 ```bash
 cd <project directory>
-docker build -t app .
+docker-compose build
 ```
 
 2. Run the Docker container:
 ```bash
-docker run -d -p 8000:8000 app.
+cd <project directory>
+docker-compose up
 ```
 
 3. Access the application:
