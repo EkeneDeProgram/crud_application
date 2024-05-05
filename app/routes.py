@@ -7,7 +7,7 @@ from pydantic import ValidationError
 from typing import List
 from sqlalchemy.orm import Mapper
 
-router = APIRouter()
+router = APIRouter() # Create a router instance to define API routes
 
 
 # Get endpoint to retrieve a list of all books.
