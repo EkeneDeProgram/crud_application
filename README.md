@@ -16,7 +16,7 @@ You can view the Swagger documentation for the API endpoints by visiting the fol
 Before installing the Simple CRUD Application API, ensure you have the following prerequisites installed:
 
 * Python (version 3.6 or higher)
-* PostgreSQL database (Optional)
+* utilize any database of your choice (PostgreSQL, MySQL)
 * Docker (Optional)
 
 **Setting Up**
