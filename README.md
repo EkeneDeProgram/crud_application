@@ -51,7 +51,7 @@ pip install -r requirements.txt
 * Open the `.env` file and set the `DATABASE_URL` and `DOCKER_DATABASE_URL` variable to your local PostgreSQL connection string.
 ```bash
 DATABASE_URL=postgresql://{username}:{password}@localhost:{port}/{your-database-name}
-DOCKER_DATABASE_URl=postgresql://{username}:{password}@host.docker.internal:{port}/{your-database-name}
+DOCKER_DATABASE_URL=postgresql://{username}:{password}@host.docker.internal:{port}/{your-database-name}
 ```
 
 5. Run the development server:

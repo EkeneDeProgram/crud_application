@@ -9,5 +9,5 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=${DOCKER_DATABASE_URl}
+      - DATABASE_URL=${DOCKER_DATABASE_URL}
       
